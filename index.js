@@ -57,10 +57,12 @@ const questions = [
     
 }
 
-function main ()
+function main () {
+
+}
 console.log('Welcome to the README Genorator!');
 
-const projectInfo = await getProjectAnswers(); 
+const projectInfo = getProjectAnswers(); 
 
 // TODO: Create an array of questions for user input
 const ProjectAnswers = [];
